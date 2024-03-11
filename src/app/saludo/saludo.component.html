@@ -6,3 +6,8 @@
 <!-- Interpolation -->
 <p>{{ 1 + 1 }}</p>
 <p>El metodo me devuelve: {{ mostrarSaludo() }}</p>
+
+<!-- Binding -->
+<p id="prefijo-{{ idParagraph }}-sufijo">Parrafo para modificar atributos</p>
+<p [id]="idParagraph">Otro parrafo</p>
+<input [type]="idInput" name="" id="">
