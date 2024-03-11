@@ -11,6 +11,6 @@ import { log } from 'console';
 export class EventosComponent {
   onClick() {
     console.log('Se ha pulsado');
-
+    
   }
 }
