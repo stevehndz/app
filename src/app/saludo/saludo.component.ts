@@ -18,4 +18,8 @@ export class SaludoComponent {
       this.mensaje = 'Otro mensaje diferente';
     }, 3000);
   }
+
+  mostrarSaludo(): string {
+    return 'Saludo desde el metodo';
+  }
 }
