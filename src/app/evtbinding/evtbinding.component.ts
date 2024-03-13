@@ -23,6 +23,20 @@ export class EvtbindingComponent {
 
   onChange($event: any) {
     console.log($event.target.value);
+  }
+  onChangeInput($event: any) {
+    //console.log($event.target.value);
+  }
+  onInput($event: any) {
+    //console.log($event.target.value);
+    this.mensaje = $event.target.value;
+  }
+  onFocus() {
+    console.log('Recibe foco');
+
+  }
+  onBlur() {
+    console.log('Pierde el foco');
 
   }
 

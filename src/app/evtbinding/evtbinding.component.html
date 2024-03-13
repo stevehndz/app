@@ -8,3 +8,5 @@
 <div class="cuadrado" (mouseenter)="onMouseEnter()" (mouseout)="onMouseOut()">
   {{ mensaje }}
 </div>
+
+<input type="text" (focus)="onFocus()" (blur)="onBlur()" (change)="onChangeInput($event)" (input)="onInput($event)">
