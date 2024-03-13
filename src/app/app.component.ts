@@ -17,4 +17,10 @@ import { AlertaComponent } from "./alerta/alerta.component";
 })
 export class AppComponent {
   title = 'app';
+
+  titulos: string[];
+
+  constructor() {
+    this.titulos = ['Jurassic Park', 'Harry Potter', 'Iron Man'];
+  }
 }
