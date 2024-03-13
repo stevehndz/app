@@ -5,13 +5,14 @@ import { PadreComponent } from "./padre/padre.component";
 import { EventosComponent } from "./eventos/eventos.component";
 import { CalculadoraComponent } from "./calculadora/calculadora.component";
 import { TimeComponent } from './time/time.component';
+import { EvtbindingComponent } from "./evtbinding/evtbinding.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, SaludoComponent, PadreComponent, EventosComponent, CalculadoraComponent, TimeComponent]
+    imports: [RouterOutlet, SaludoComponent, PadreComponent, EventosComponent, CalculadoraComponent, TimeComponent, EvtbindingComponent]
 })
 export class AppComponent {
   title = 'app';
